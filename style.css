@@ -340,3 +340,50 @@ ul a:hover {
 .line-2 {
     margin-top: 5px;
 }
+
+/* foot-panel-name */
+
+.foot-panel-name {
+    height: 40px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel-name i {
+    font-size: 1.2rem;
+}
+
+.foot-panel-name a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+.foot-panel-name a:hover {
+    text-decoration: underline;
+    color: #C7511F;
+    cursor: pointer;
+}
