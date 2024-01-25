@@ -345,11 +345,15 @@ ul a:hover {
 
 .foot-panel-name {
     height: 40px;
-    background-color: #0f1111;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.foot-panel-name:hover {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .github {
@@ -376,7 +380,7 @@ ul a:hover {
 
 .foot-panel-name a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 0.9rem;
     margin-left: 5px;
